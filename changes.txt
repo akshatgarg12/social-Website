@@ -1,0 +1,17 @@
+1.add a photo of the user who posts a status.
+2.add hashing to passwords.
+3.add a dashboard section to see the users profile.
+4.add a email verification method
+5.add a like system
+6.add a friends system
+7.add a chat screen.
+8.create pop-ups for the editing bio section with a preview section for change dp.
+9. check whether the uploaded photo in chnage dp is not empty
+
+** What i learned: **
+ a. form validation
+ b. database connections 
+ c. handling errors in php
+ d. passing data and sessions working
+ e. using file buttons in form to upload images.
+ f. using php to create multiple html elements with for loops using database     data.

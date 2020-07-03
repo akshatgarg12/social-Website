@@ -1,0 +1,221 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:1.25rem;
+  background: #252525;
+}
+
+
+/* header  */
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1%;
+  background: #252525;
+}
+a{
+  text-decoration: none;
+}
+.logo{
+  font-family: 'Pacifico', cursive;
+  color:#ff0000;
+  font-size:2.3rem;
+  margin-left:50px;
+  display: block;
+}
+ul{
+  list-style: none;
+  display: flex;
+  margin-right: 2%;
+  padding-right: 0%;
+}
+li a{
+  color:#5C677D;
+  margin-right: 50px;
+}
+hr{
+  border:1px solid #5C677D;
+}
+
+
+/* opening site page */
+
+.display-page{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  margin-top:10%;
+}
+.display-gallery img, .display-message{
+  height:50%;
+  max-width: 90%;
+  object-fit: cover;
+}
+.display-message{
+  font-size:3rem;
+  color:white;
+  font-family: 'Bungee', cursive;
+  margin-top:2%;
+  margin-left: 1%;
+}
+
+
+/* form */
+
+form{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top:10%;
+}
+form input{
+  border:none;
+  width:25%;
+  margin:auto;
+  margin-bottom:1%;
+  height:2rem;
+  background: #353535;
+  color:white;
+  -moz-border-radius: 5%;
+  -webkit-border-radius: 5%;
+  border-radius: 5%;
+}
+::placeholder{
+  color:white;
+  opacity:0.7;
+}
+input:focus{
+  outline:1px solid #ff0000;
+}
+.form-heading{
+  font-size: 25px;
+  color: #ff0000;
+}
+.submit-button{
+  background: black;
+  color: white;
+  font-size:1rem;
+  transition: all ease 0.5s;
+  outline:none;
+}
+.submit-button:hover{
+  background: #ff0000;
+  color: white;
+}
+input[type=checkbox]{
+  display: inline block;
+  margin-left: 0;
+  padding: 0;
+  position: relative;
+  left:110px;
+  outline: none;
+  cursor: pointer;
+  background:red;
+}
+.checkbox h6{
+  display: inline-block;
+  position: relative;
+  right:200px;
+  bottom:10px;
+}
+
+.feed{
+  margin:0% 20%;
+}
+.user-profile{
+  padding:2% 5%;
+  
+  border: 1px solid black;
+}
+.user{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:3%;
+}
+.user-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user img{
+  margin-right:2%;
+  height:17rem;
+  width:17rem;
+  object-fit:cover;
+  border-radius: 50%;
+}
+.username{
+  margin-bottom:1%;
+  color:#575757;
+  font-weight: 900;
+}
+.bio{
+  color:#535353;
+}
+.user-info form{
+  display: inline-block;
+  text-align: left;
+}
+.user-info form input{
+  width:5rem;
+  cursor: pointer;
+  font-weight: 300;
+}
+.post form{
+  display: flex;
+}
+.post-area{
+  padding:1% 1%;
+  justify-content: center;
+}
+textarea{
+  white-space: pre-wrap;
+}
+
+.status-area{
+  float:left;
+  resize: none;
+  height:5%;
+  width:80%;
+  font-size:1.25rem;
+}
+.post input{
+  width:80%;
+}
+.post-btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img-add-button{
+  margin-bottom: 32%;
+  margin-left:1%;
+  font-size:0.5rem;
+  cursor: pointer;
+  box-shadow: none;
+  background:#353535;
+}
+
+.photo{
+  height:400px;
+  width: 510px;
+  object-fit: contain;
+  margin-bottom: 0;
+}
+.uid{
+  color: #535353;
+}
+.status{
+  color: #5C677D;
+}
+
+.bio-edit{
+  resize: none;
+}
